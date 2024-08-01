@@ -1,0 +1,120 @@
+/* Font Style */
+.roboto {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* universal Styles */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* Body part */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1024px;
+    background: url(image\ 1\ \(2\).png);
+}
+.login{
+    width: 500px;
+height: 550px;
+box-shadow: 10px 10px 90px 20px rgba(255, 0, 0, 0.25);
+background: rgba(11, 11, 11, 0.2);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.user{
+    width: 400px;
+height: auto;
+margin-top: 64px;
+margin-left: 4px;
+/* border: 2px solid red; */
+display: flex;
+flex-direction: row;
+}
+.user>input{
+    position: relative;
+    width: 400px;
+height: 41px;
+background-color: rgb(255, 255, 255,0.10);
+border-bottom: 2px solid rgba(0, 255, 255, 0.384);
+padding: 0 10px;
+
+font-weight: 800;
+font-size: 14px;
+
+}
+.user>img{
+    position: absolute;
+    top: 330px;
+    left: 890px;
+}
+.pass>input{
+    position: relative;
+    width: 378px;
+    margin-top: 50px;
+height: 41px;
+background-color: rgb(255, 255, 255,0.10);
+border-bottom: 2px solid rgba(0, 255, 255, 0.384);
+padding: 0 10px;
+
+font-weight: 800;
+font-size: 14px;
+
+}
+.pass>img{
+    position: absolute;
+    top: 425px;
+    left: 890px;
+}
+.select{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+    height: auto;
+
+}
+.select>button{
+    width: 170px;
+height: 50px;
+border-radius: 18px;
+
+box-shadow: 10px 10px 100px 50px rgba(255, 0, 0, 0.25);
+background: rgb(0, 0, 0);
+border: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.select>button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.disc{
+    margin-top: 150px;
+}
+.disc>p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+span{
+    color: rgb(6, 252, 219);
+    margin-left: 10px;
+}
